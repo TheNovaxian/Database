@@ -1,0 +1,420 @@
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Consultant ID Skill                                                             
+------------- --------------------------------------------------                
+          100 VB .NET Programming                                               
+          100 Java Programming                                                  
+          100 Oracle Developer Programming                                      
+
+
+Consultant ID Skill                                              Certifie       
+------------- -------------------------------------------------- --------       
+          102 Oracle Database Administration                     Y              
+
+
+Consultant ID Project Name                                                      
+------------- ------------------------------                                    
+          100 Hardware Support Interface                                        
+          100 Exploration Database                                              
+
+
+Skill                                              First Name                   
+-------------------------------------------------- --------------------         
+Last Name                                                                       
+--------------------                                                            
+VB .NET Programming                                Mark                         
+Myers                                                                           
+                                                                                
+VB .NET Programming                                Sarah                        
+Carlson                                                                         
+                                                                                
+Project Management                                 Janet                        
+Park                                                                            
+                                                                                
+
+Skill                                              First Name                   
+-------------------------------------------------- --------------------         
+Last Name                                                                       
+--------------------                                                            
+Oracle Developer Programming                       Mark                         
+Myers                                                                           
+                                                                                
+Oracle Developer Programming                       Sarah                        
+Carlson                                                                         
+                                                                                
+Oracle Database Administration                     Brian                        
+Zhang                                                                           
+                                                                                
+
+Skill                                              First Name                   
+-------------------------------------------------- --------------------         
+Last Name                                                                       
+--------------------                                                            
+Windows NT/2000 Network Administration             Sarah                        
+Carlson                                                                         
+                                                                                
+Windows XP Network Administration                  Sarah                        
+Carlson                                                                         
+                                                                                
+Windows XP Network Administration                  Paul                         
+Courtlandt                                                                      
+                                                                                
+
+9 rows selected.
+
+
+Consultant ID First Name           Last Name                                    
+------------- -------------------- --------------------                         
+Project Name                                                                    
+------------------------------                                                  
+          100 Mark                 Myers                                        
+Hardware Support Interface                                                      
+                                                                                
+          100 Mark                 Myers                                        
+Exploration Database                                                            
+                                                                                
+
+
+Project Name                   Manager First Name   Manager Last Name           
+------------------------------ -------------------- --------------------        
+Hardware Support Intranet      Janet                Park                        
+Hardware Support Interface     Sarah                Carlson                     
+Hardware Support Database      Brian                Zhang                       
+Teller Support System          Janet                Park                        
+Internet Advertising           Janet                Park                        
+Network Design                 Paul                 Courtlandt                  
+Exploration Database           Brian                Zhang                       
+
+7 rows selected.
+
+
+Project Name                   Parent Project                                   
+------------------------------ ------------------------------                   
+Hardware Support Interface     Hardware Support Intranet                        
+Hardware Support Database      Hardware Support Intranet                        
+Network Design                 Internet Advertising                             
+
+
+Project Name                   Parent Project                                   
+------------------------------ ------------------------------                   
+Hardware Support Interface     Hardware Support Intranet                        
+Hardware Support Database      Hardware Support Intranet                        
+Network Design                 Internet Advertising                             
+Hardware Support Intranet                                                       
+Teller Support System                                                           
+Internet Advertising                                                            
+Exploration Database                                                            
+
+7 rows selected.
+
